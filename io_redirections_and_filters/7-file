@@ -1,2 +1,2 @@
 #!/bin/bash
-printf 'Best School\n' > "$(printf '%s%s%s%s' '\*\\' '"Best School"' "'" '\\*$\?\*\*\*\*\*:)')"
+printf 'Best School\n' > "$(printf '%s' '\*\\'"'"'"Best School"'"'"'\'\\*$\?\*\*\*\*\*:)')"
