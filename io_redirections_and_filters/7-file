@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -c 'import os; open(chr(92)+"*"+chr(92)*2+chr(39)+chr(34)+"Best School"+chr(34)+chr(92)+chr(39)+chr(92)*2+"*$"+chr(92)+"?"+(chr(92)+"*")*5+":)", "w").write("Best School\n")'
+printf 'Best School\n' > "$(printf '%s%s%s%s' '\*\\' '"Best School"' "'" '\\*$\?\*\*\*\*\*:)')"
